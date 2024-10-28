@@ -58,6 +58,7 @@ namespace LogIn
             {
                 Validation.Text = "Password doesn't match!!";
             }
+            User.Id = User.Id + 1;
             User.Name = fname;
             User.Username = uName;
             User.Password = pass;
